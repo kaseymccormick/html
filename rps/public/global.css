@@ -1,0 +1,95 @@
+/*white space stylization*/
+body{
+  padding: 0px 0px 0px 20px;
+  margin:0px;
+  color:#424242;
+}
+body img{
+  width:200px;
+  padding-bottom:20px;
+}
+/*type stylization for all pages*/
+html {
+  font-family:"Verdana", "Verdana"," Geneva"," sans-serif";
+}
+
+
+h1{
+  font-size:80px;
+  line-height:.4;
+  color:#0283AA;
+}
+
+h1 span {
+  font-size: 32px;
+  padding-left: 13px;
+  color:#424242;
+
+}
+
+h2{
+  padding:20px 0px 0px 0px;
+  color:#0283AA;
+  font-size:26px;
+  
+}
+
+h3{
+  color:#424242;
+  font-size:18px;
+  padding-bottom: 0px;
+  margin-bottom: 12px;
+  border-bottom: #c1c1c1 solid 1px;
+  width: 360px;
+  
+}
+p{}
+em{}
+.note{}
+  
+  
+  
+/*weapon class treatments*/
+.weapons{
+  
+}
+
+.weapons li {
+  padding: 5px;
+  list-style-type: none;
+  margin: 10px;
+}
+
+.weapons li img:hover {
+  border: solid orange 4px;
+  padding: 5px;
+}
+
+.weapons li img{
+  width:80px;
+}
+/*introduction modifications*/
+
+#introduction #header hr {
+    border: 0;
+    border-bottom: 1px dashed #0283AA;
+    margin:-20px;
+}
+
+#explination li{
+  list-style-type:none;
+}
+
+a.button{
+  background-color: #0283AA;
+  border-radius: 10px;
+  border: 3px rgba(12, 98, 124, 0.12) solid;
+  padding: 4px 90px;
+  color:white;
+  text-decoration:none;
+  font-weight:normal;
+
+  -webkit-box-shadow: 3px 2px 5px 0px #9BA2A5;
+          box-shadow: 3px 2px 5px 0px #9BA2A5;
+  
+}
